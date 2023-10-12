@@ -1,0 +1,60 @@
+#tarolo {
+    width: 80%;
+    max-width: 800px; /* alt shift a */
+    margin: auto;
+}
+#fejlec {
+    background-image: url("kepek/hero.jpg");
+    height: 100vh;
+    background-size: cover;
+    text-align: center;
+    padding: 30px;
+}
+
+.menu ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 10px;
+}
+  
+.menu ul li {
+    padding: 10px;
+    background-color: rgb(250, 103, 6);
+    border-radius: 20px;
+}
+  
+.menu ul a {
+    color: white;
+    text-decoration: none;
+}
+  
+.menu ul a:hover {
+    color: brown;
+}
+
+h1 {
+    color: white;
+}
+
+p {
+    color: gray;
+}
+
+
+.keresem {
+    padding: 10px;
+    background-color: rgb(250, 103, 6);
+    border-radius: 20px;
+}
+  
+.keresem {
+    color: white;
+    text-decoration: none;
+}
+  
+.keresem:hover {
+    color: brown;
+}
